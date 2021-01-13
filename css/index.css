@@ -1,7 +1,37 @@
 /* NAV BAR */
+nav {
+    height: 148px;
+    display: flex;
+}
+
 .left {
     font-size: 48px;
+    font-family: 'Karla', sans-serif;
+    text-decoration: none;
     color: black;
-    
+
    
 }
+
+.right {
+    font-size: 20px;
+    font-family: 'Karla', sans-serif;
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    color:black;
+       
+}
+
+
+/* FOOTER */
+.footerLogo {
+    width: 20px;
+    height: 40px;
+}
+
+a {
+    font-family: 'Karla', sans-serif;
+    color: black;
+}
+
